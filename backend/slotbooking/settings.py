@@ -79,12 +79,11 @@ WSGI_APPLICATION = 'slotbooking.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'slot_booking',      # your MySQL DB
-        'USER': 'root',
-        'PASSWORD': 'Surya@5566',
-        'HOST': 'localhost',
+        'NAME': 'bwxzv4dpxdfixcnyuxpg',
+        'USER': 'ushekxkgozzdhnhr',
+        'PASSWORD': 'phmMX1edNxXTuvKKXq3x',
+        'HOST': 'bwxzv4dpxdfixcnyuxpg-mysql.services.clever-cloud.com',
         'PORT': '3306',
-
     }
 }
 
