@@ -153,3 +153,4 @@ if (slotsList && !filterDate?.value) {
         fetchBookedSlots(filterDate ? filterDate.value : '');
     }, 30000);
 }
+
