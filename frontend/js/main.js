@@ -1,6 +1,5 @@
 // API Base URL
-const API_URL = 'https://slot-booking-project-tpe9.onrender.com/api';
-
+const API_BASE_URL = 'https://slot-booking-project-tpe9.onrender.com/api';
 // Format time slot for display
 function formatTimeSlot(timeSlot) {
     const timeMap = {
