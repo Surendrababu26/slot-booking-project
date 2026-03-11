@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booked Slots</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📅 Slot Booking System</h1>
+            <nav>
+                <a href="index.html">Book Slot</a>
+                <a href="booked-slots.html" class="active">View Booked Slots</a>
+            </nav>
+        </header>
+
+        <main>
+            <div class="slots-container">
+                <h2>All Booked Slots</h2>
+                
+                <div class="filters">
+                    <input type="date" id="filterDate" placeholder="Filter by date">
+                    <button id="refreshBtn" class="btn-refresh">🔄 Refresh</button>
+                </div>
+
+                <div id="loading" class="loading">Loading slots...</div>
+                
+                <div id="slotsList" class="slots-list">
+                    <!-- Slots will be displayed here -->
+                </div>
+
+                <div id="errorMessage" class="error-message"></div>
+            </div>
+        </main>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
